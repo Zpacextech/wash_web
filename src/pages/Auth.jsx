@@ -19,7 +19,7 @@ function Auth() {
         event.preventDefault();
 
         try {
-            const response = await fetch('https://washapi-production.up.railway.app/auth/admin/login', {
+            const response = await fetch('https://wash-api.onrender.com/auth/admin/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
