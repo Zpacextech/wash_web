@@ -43,7 +43,7 @@ function NewWasher() {
 
         // Send data to the server or process it
         // Example:
-        fetch('http://localhost:3001/car-washers/create', {
+        fetch('https://wash-api.onrender.com/car-washers/create', {
             method: 'POST',
             body: data,
         }).then(response => console.log('Success:', response))
